@@ -1,0 +1,23 @@
+{
+  "name": "github-actions-nodejs",
+  "version": "1.0.0",
+  "description": "testing github actions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Sucessful\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patwalnik/github-actions-nodejs.git"
+  },
+  "author": "patwalnik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patwalnik/github-actions-nodejs/issues"
+  },
+  "homepage": "https://github.com/patwalnik/github-actions-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
