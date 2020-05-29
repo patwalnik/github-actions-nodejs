@@ -1,0 +1,22 @@
+{
+  "family": "node-github-actions",
+  "executionRoleArn": "arn:aws:iam::696059573081:role/ecsTaskExecutionRole",
+  "networkMode": "awsvpc",
+  "containerDefinitions": [
+    {
+      "name": "node-github-actions",
+      "image": "696059573081.dkr.ecr.ap-south-1.amazonaws.com/node-github-actions:latest",
+      "portMappings": [
+        {
+          "containerPort": 3000,
+          "hostPort": 3000,
+          "protocol": "tcp"
+        }
+      ],
+      "essential": true
+    }
+  ],
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "512",
+  "memory": "1024"
+}
